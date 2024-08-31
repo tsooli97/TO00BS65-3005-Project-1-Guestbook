@@ -1,6 +1,6 @@
-const express = require("express")
-const router = express.Router()
-const guestbookController = require("../controllers/guestbookController")
+const express = require("express");
+const router = express.Router();
+const guestbookController = require("../controllers/guestbookController");
 
 router.get("/", guestbookController.indexGet);
 router.get("/guestbook", guestbookController.guestbookGet);
