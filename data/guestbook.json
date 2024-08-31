@@ -1,0 +1,32 @@
+[
+  {
+    "name": "realuser12",
+    "country": "France",
+    "message": "Bonjour!",
+    "timestamp": "2024-08-25T14:45:45Z"
+  },
+  {
+    "name": "realuser12",
+    "country": "France",
+    "message": "Bonjour again!",
+    "timestamp": "2024-08-25T16:25:21Z"
+  },
+  {
+    "name": "Pekka",
+    "country": "Suomi",
+    "message": "Tänään on taas poutaista!",
+    "timestamp": "2024-08-27T14:45:45Z"
+  },
+  {
+    "name": "Real Human Person",
+    "country": "Earth",
+    "message": "Hello fellow earthlings 👽",
+    "timestamp": "2024-08-30T14:45:45Z"
+  },
+  {
+    "name": "Johnny Joestar",
+    "country": "USA",
+    "message": "Yeehaw!",
+    "timestamp": "2024-08-31T13:12:57.089Z"
+  }
+]

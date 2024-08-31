@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include("partials/navigation_bar.ejs") %>
+
+    <h1>Messages</h1>
+
+    <% if (messages) { %>
+      <% let count = 0 %>
+      <table>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Country</th>
+          <th>Message</th>
+        </tr>
+        <% for (let message of messages) { %>
+          <tr>
+            <td><%= count %></td>
+            <td><%= message.name %></td>
+            <td><%= message.country %></td>
+            <td><%= message.message %></td>
+          </tr>
+
+          <% count++ %>
+        <% } %>  
+      </table>
+    <% } %>
+    
+</body>
+</html>
